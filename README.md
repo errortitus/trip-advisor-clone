@@ -27,4 +27,4 @@ A responsive, clean, and modern front-end replica of the **Tripadvisor** landing
 ---
 
 ## 🚀 live Demo
-[]
+[https://errortitus.github.io/trip-advisor-clone/]

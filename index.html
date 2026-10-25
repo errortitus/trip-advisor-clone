@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor Clone</title>
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="navbar-s1">
+            <h1 class="navbar-s1__title"><i class="fa-solid fa-plane-departure"></i> Tripadvisor</h1>
+        </div>
+
+        <div class="navbar-s2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Where to? Hotels, things to do, restaurants...">
+        </div>
+
+        <div class="navbar-s3">
+            <p><i class="fa-solid fa-globe"></i> INR</p>
+            <p>Discover</p>
+            <div class="trips">
+                <p>Trips</p>
+                <div class="trips__popup">
+                    <p>No saved trips yet. Start exploring!</p>
+                </div>
+            </div>
+            <div class="navbar-s3__icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+
+        <div class="navbar-s4">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="catagories">
+        <p><i class="fa-solid fa-bed"></i> Hotels</p>
+        <p><i class="fa-solid fa-ticket"></i> Things to Do</p>
+        <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+        <p><i class="fa-solid fa-plane"></i> Flights</p>
+        <p><i class="fa-solid fa-house"></i> Vacation Rentals</p>
+    </div>
+
+    <!-- Hero / Sales style banner -->
+    <div class="sales-image">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80" alt="Destination Banner">
+        <div class="sale-image__offer">
+            <h2>Explore the World Today!</h2>
+            <p>Find & book top-rated hotels, unique experiences, and fine dining around the globe.</p>
+        </div>
+    </div>
+
+    <!-- Recommended Places -->
+    <div class="recommended">
+        <h1 class="recommented__title">Top Destinations for You</h1>
+        <p>Handpicked places with millions of reviews</p>
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=500&q=80" alt="Dubai">
+                <h3>Dubai Luxury Villa Resort</h3>
+                <p>United Arab Emirates</p>
+                <p>4.9 ⭐⭐⭐⭐⭐ (1,240 reviews)</p>
+                <p>₹14,499 / night <del>₹19,999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=500&q=80" alt="Bali">
+                <h3>Bali Tropical Gateway</h3>
+                <p>Indonesia</p>
+                <p>4.8 ⭐⭐⭐⭐⭐ (3,410 reviews)</p>
+                <p>₹8,449 / night <del>₹12,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=500&q=80" alt="Paris">
+                <h3>Eiffel View Luxury Hotel</h3>
+                <p>Paris, France</p>
+                <p>4.9 ⭐⭐⭐⭐⭐ (5,120 reviews)</p>
+                <p>₹22,449 / night <del>₹30,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=500&q=80" alt="Sydney">
+                <h3>Sydney Harbour Suite</h3>
+                <p>Australia</p>
+                <p>4.7 ⭐⭐⭐⭐⭐ (980 reviews)</p>
+                <p>₹18,449 / night <del>₹24,000</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Topics / Trending Tags -->
+    <div class="topic">
+        <h1 class="topic__title">Trending Travel Experiences</h1>
+        <div class="topic__container">
+            <p>Scuba Diving</p>
+            <p>Mountain Trekking</p>
+            <p>Beach Resorts</p>
+            <p>Historical Tours</p>
+            <p>Safari Trips</p>
+            <p>Cruises</p>
+            <p>Food Tastings</p>
+            <p>Spa & Wellness</p>
+        </div>
+    </div>
+
+    <!-- Popular Section -->
+    <div class="popular">
+        <h1 class="popular__title">Most Popular Places To Visit</h1>
+        <p>Explore choices loved by travelers worldwide</p>
+        <div class="popular__container">
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=500&q=80" alt="Dubai">
+                <h3>Dubai Luxury Villa Resort</h3>
+                <p>United Arab Emirates</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>₹14,499<del>19,999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=500&q=80" alt="Bali">
+                <h3>Bali Tropical Gateway</h3>
+                <p>Indonesia</p>
+                <p>4.8 ⭐⭐⭐⭐⭐</p>
+                <p>₹8,449<del>12,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=500&q=80" alt="Paris">
+                <h3>Eiffel View Luxury Hotel</h3>
+                <p>Paris, France</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>₹22,449<del>30,000</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=500&q=80" alt="Sydney">
+                <h3>Sydney Harbour Suite</h3>
+                <p>Australia</p>
+                <p>4.7 ⭐⭐⭐⭐⭐</p>
+                <p>₹18,449<del>24,000</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="reviews">
+        <h1 class="reviews__title">What Travelers Are Saying</h1>
+        <p>Real stories and ratings from travelers around the world</p>
+
+        <div class="reviews__container">
+            <!-- Review Card 1 -->
+            <div class="review-card">
+                <div class="review-card__header">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="User Profile">
+                    <div class="review-card__user-info">
+                        <h3>Sarah Jenkins</h3>
+                        <p>Visited Bali, Indonesia</p>
+                    </div>
+                </div>
+                <div class="review-card__rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span class="date">October 2026</span>
+                </div>
+                <h4 class="review-card__heading">"An Unforgettable Trip!"</h4>
+                <p class="review-card__comment">
+                    Booking our luxury stay through Tripadvisor was the best decision! The reviews from other travelers were spot on, and we got the best prices.
+                </p>
+            </div>
+
+            <!-- Review Card 2 -->
+            <div class="review-card">
+                <div class="review-card__header">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="User Profile">
+                    <div class="review-card__user-info">
+                        <h3>Alex Rivera</h3>
+                        <p>Visited Paris, France</p>
+                    </div>
+                </div>
+                <div class="review-card__rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span class="date">September 2026</span>
+                </div>
+                <h4 class="review-card__heading">"Best Travel Advice Ever"</h4>
+                <p class="review-card__comment">
+                    The restaurant recommendations in Paris helped us find secret local spots away from tourist traps. Highly recommend checking reviews first!
+                </p>
+            </div>
+
+            <!-- Review Card 3 -->
+            <div class="review-card">
+                <div class="review-card__header">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="User Profile">
+                    <div class="review-card__user-info">
+                        <h3>Priya Sharma</h3>
+                        <p>Visited Dubai, UAE</p>
+                    </div>
+                </div>
+                <div class="review-card__rating">
+                    <span class="stars">⭐⭐⭐⭐⭐</span>
+                    <span class="date">August 2026</span>
+                </div>
+                <h4 class="review-card__heading">"Seamless Booking & Authentic Reviews"</h4>
+                <p class="review-card__comment">
+                    The hotel reviews were completely honest. Everything from room service to views matched what travelers uploaded. Will use again!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__1">
+            <div class="footer__1-1">
+                <p>About Tripadvisor</p>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+            </div>
+
+            <div class="footer__1-2">
+                <p>Explore</p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join Community</p>
+                <p>Travel Articles</p>
+            </div>
+        </div>
+
+        <div class="footer__2">
+            <h1>Tripadvisor</h1>
+            <p>&copy;2026 Tripadvisor LLC All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
